@@ -16,7 +16,7 @@ const app = express();
 let usersCollection;
 
 // MongoDB connection
-const client = new MongoClient(process.env.MONGODB_URL);
+const client = new MongoClient(mongodb+srv://mrinal:mrinal123@cluster0.javoer2.mongodb.net/);
 let db;
 let donationsCollection;
 
